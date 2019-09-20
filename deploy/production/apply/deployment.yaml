@@ -8,7 +8,7 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   labels:
-    application: kube-schedule-scaler
+    application: kube-admin-pod
     version: v0.1
   name: kube-admin-pod
 spec:
